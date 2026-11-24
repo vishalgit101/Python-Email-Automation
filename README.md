@@ -18,13 +18,20 @@ The project uses environment variables to securely store Gmail credentials and a
 ```text
 Python-Email-Automation/
 │
-├── main.py              # Main Python script
-├── emails.txt           # Recipient email addresses
-├── requirements.txt     # Python dependencies
-├── .env                 # Your Gmail credentials (create this)
-├── .env.example         # Example environment configuration
-├── .gitignore           # Files excluded from Git
-└── README.md            # Project documentation
+├── .env                    # Gmail credentials (create locally)
+├── .env.example            # Example environment variables
+├── .gitignore              # Files excluded from Git
+│
+├── business_template.html  # HTML email template
+├── email_template.txt      # Text email template
+├── emails.txt              # Recipient email addresses (create locally)
+│
+├── demo.py                 # Demo script
+├── main_html.py            # HTML email script
+├── script.py               # Python email automation script
+│
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
 ```
 
 ## ⚙️ Installation & Setup
